@@ -3,7 +3,7 @@
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtFirstName.TextChanged
 
     End Sub
 
@@ -11,7 +11,7 @@
 
     End Sub
 
-    Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs) Handles TextBox4.TextChanged
+    Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs) Handles txtCity.TextChanged
 
     End Sub
 
@@ -27,19 +27,34 @@
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        txtFirstName.Text = ""
+        txtLastName.Text = ""
+        txtAddress.Text = ""
+        txtCity.Text = ""
+        cboState.Text = ""
+        txtZIP.Text = ""
+        txtCell1.Text = ""
+        txtCell2.Text = ""
+        txtCell3.Text = ""
+        txtEmail.Text = ""
+        radYes.Checked = False
+        radNo.Checked = False
+        chkCertify.Checked = False
+        For Each i As Integer In clbShift.CheckedIndices
+            clbShift.SetItemCheckState(i, CheckState.Unchecked)
+        Next
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnExit.Click
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-    End Sub
-
-    Private Sub CheckedListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CheckedListBox1.SelectedIndexChanged
+    Private Sub CheckedListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles clbShift.SelectedIndexChanged
 
     End Sub
 
@@ -47,15 +62,15 @@
 
     End Sub
 
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles txtCell1.TextChanged
 
     End Sub
 
-    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
+    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles txtCell2.TextChanged
 
     End Sub
 
-    Private Sub TextBox7_TextChanged(sender As Object, e As EventArgs) Handles TextBox7.TextChanged
+    Private Sub TextBox7_TextChanged(sender As Object, e As EventArgs) Handles txtCell3.TextChanged
 
     End Sub
 
@@ -63,11 +78,11 @@
 
     End Sub
 
-    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
+    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles radYes.CheckedChanged
 
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles chkCertify.CheckedChanged
 
     End Sub
 
