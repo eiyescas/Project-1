@@ -93,4 +93,36 @@
     Private Sub Label15_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub txtCell1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCell1.KeyPress
+        'This sub will make the Textbox only accept digits 
+        If Char.IsNumber(e.KeyChar) = False Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtCell2_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCell2.KeyPress
+        'This sub will make the Textbox only accept digits 
+        If Char.IsNumber(e.KeyChar) = False Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtCell3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCell3.KeyPress
+        'This sub will make the Textbox only accept digits 
+        If Char.IsNumber(e.KeyChar) = False Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtZIP_TextChanged(sender As Object, e As EventArgs) Handles txtZIP.TextChanged
+
+    End Sub
+
+    Private Sub txtZIP_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtZIP.KeyPress
+        'This sub will make the Textbox only accept digits 
+        If Char.IsNumber(e.KeyChar) = False Then
+            e.Handled = True
+        End If
+    End Sub
 End Class

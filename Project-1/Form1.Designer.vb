@@ -61,7 +61,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(33, 173)
+        Me.Label1.Location = New System.Drawing.Point(33, 176)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(70, 15)
         Me.Label1.TabIndex = 0
@@ -72,7 +72,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(405, 179)
+        Me.Label2.Location = New System.Drawing.Point(405, 176)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 15)
         Me.Label2.TabIndex = 1
@@ -121,7 +121,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(33, 212)
+        Me.Label4.Location = New System.Drawing.Point(33, 216)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(59, 15)
         Me.Label4.TabIndex = 6
@@ -141,7 +141,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(33, 250)
+        Me.Label5.Location = New System.Drawing.Point(33, 254)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(35, 15)
         Me.Label5.TabIndex = 8
@@ -161,7 +161,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(31, 296)
+        Me.Label6.Location = New System.Drawing.Point(31, 302)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(90, 15)
         Me.Label6.TabIndex = 10
@@ -172,7 +172,7 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(361, 299)
+        Me.Label7.Location = New System.Drawing.Point(361, 303)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(41, 15)
         Me.Label7.TabIndex = 11
@@ -197,6 +197,7 @@ Partial Class Form1
         Me.txtCell2.Name = "txtCell2"
         Me.txtCell2.Size = New System.Drawing.Size(32, 22)
         Me.txtCell2.TabIndex = 13
+        Me.txtCell2.Tag = ""
         '
         'txtCell3
         '
@@ -245,7 +246,7 @@ Partial Class Form1
         Me.clbShift.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.clbShift.FormattingEnabled = True
         Me.clbShift.Items.AddRange(New Object() {"Morning", "Afternoon", "Evening", "Weekend"})
-        Me.clbShift.Location = New System.Drawing.Point(35, 372)
+        Me.clbShift.Location = New System.Drawing.Point(36, 374)
         Me.clbShift.Name = "clbShift"
         Me.clbShift.Size = New System.Drawing.Size(142, 89)
         Me.clbShift.TabIndex = 18
@@ -255,7 +256,7 @@ Partial Class Form1
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(32, 341)
+        Me.Label10.Location = New System.Drawing.Point(33, 356)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(117, 15)
         Me.Label10.TabIndex = 19
@@ -266,7 +267,7 @@ Partial Class Form1
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(313, 250)
+        Me.Label11.Location = New System.Drawing.Point(317, 254)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(40, 15)
         Me.Label11.TabIndex = 20
@@ -277,7 +278,7 @@ Partial Class Form1
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(606, 250)
+        Me.Label12.Location = New System.Drawing.Point(606, 254)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(61, 15)
         Me.Label12.TabIndex = 21
@@ -346,7 +347,7 @@ Partial Class Form1
         Me.radYes.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.radYes.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.radYes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.radYes.Location = New System.Drawing.Point(301, 372)
+        Me.radYes.Location = New System.Drawing.Point(291, 385)
         Me.radYes.Name = "radYes"
         Me.radYes.Size = New System.Drawing.Size(44, 19)
         Me.radYes.TabIndex = 27
@@ -360,7 +361,7 @@ Partial Class Form1
         Me.radNo.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.radNo.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.radNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.radNo.Location = New System.Drawing.Point(301, 397)
+        Me.radNo.Location = New System.Drawing.Point(291, 410)
         Me.radNo.Name = "radNo"
         Me.radNo.Size = New System.Drawing.Size(41, 19)
         Me.radNo.TabIndex = 28
@@ -386,7 +387,7 @@ Partial Class Form1
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label14.Location = New System.Drawing.Point(298, 341)
+        Me.Label14.Location = New System.Drawing.Point(288, 356)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(114, 15)
         Me.Label14.TabIndex = 31
