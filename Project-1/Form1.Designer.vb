@@ -133,7 +133,7 @@ Partial Class Form1
         Me.TextBox3.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.Location = New System.Drawing.Point(98, 213)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(303, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(314, 22)
         Me.TextBox3.TabIndex = 7
         '
         'Label5
@@ -333,7 +333,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(92, 32)
         Me.Button3.TabIndex = 26
-        Me.Button3.Text = "Clear"
+        Me.Button3.Text = "Reset"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'RadioButton1
